@@ -13,22 +13,34 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
+                background-color: rgb(21, 25, 29);
             }
         </style>
 
     </head>
     <body >
+            
+        <header class="d-flex align-items-center justify-content-between p-4 mb-5">
+
+            <h4 class="text-dark-emphasis">
+                S.Lombardi
+            </h4>
+
+            <div>
+
+                <a class= "text-white-50 me-4" href="/contacts"> Contatti </a>
+    
+                <a  class= "text-white-50" href="/portfolio"> Portfolio </a>
+                
+            </div>
+        </header>
 
         <div class="container">
-            
-            <h1>Hello world</h1>
-            
-            <a href="/contacts"> Contatti </a>
 
-            <a href="/portfolio"> Portfolio </a>
+            <div class="d-flex justify-content-center">
+                <h1>Hello world</h1>
 
-
-
+            </div>
 
         </div>
         
