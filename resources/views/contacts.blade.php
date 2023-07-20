@@ -18,11 +18,15 @@
     <body >
         <h1>Pagina Contatti</h1>
 
-        {{ $nome }} 
-        {{ $cognome }}
-        {{ $email }}
-
-
-
+        <div>
+           Nome:  {{ $nome }} 
+        </div>
+        <div>
+           Cognome:  {{ $cognome }}
+        </div>
+        <div>
+           Cellulare:  {{ $telefono }}
+        </div>
+    
     </body>
 </html>
