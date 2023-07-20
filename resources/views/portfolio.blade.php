@@ -16,35 +16,45 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
+                background-color: rgb(21, 25, 29);
             }
 
             img {
-                width: 400px
+                width: 50%
             }
+
         </style>
     </head>
     <body >
+        
+        <header class="d-flex justify-content-between p-4 mb-5">
+            <h1 class="text-dark-emphasis">
+                Portfolio
+            </h1>
 
-        <h1>Portfolio</h1>
+            <h5 class="align-self-center">
+                S.Lombardi
+            </h5>
+        </header>
+
 
         <div class="container">
             <div class="row flex-column">
-                <div class="col-12 d-flex flex-column align-items-center">
+                <div class="col">
 
-                    <div class="card">
+                    <div class="d-flex justify-content-center">
                         
                         <img src="{{asset($img_portfolio_1)}}" alt="">
-    
                         
                     </div>
     
-                    <div class="card my-4">
+                    <div class="d-flex justify-content-center my-4">
     
                         <img src="{{asset($img_portfolio_3)}}" alt="">
                         
                     </div>
     
-                    <div class="card mb-5">
+                    <div class="d-flex justify-content-center mb-5">
     
                         <img src="{{asset($img_portfolio_2)}}" alt="">
                         
