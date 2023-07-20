@@ -24,6 +24,7 @@
         </style>
     </head>
     <body >
+
         <h1>Portfolio</h1>
 
         <div class="container">
@@ -39,13 +40,13 @@
     
                     <div class="card my-4">
     
-                        <img src="{{asset($img_portfolio_1)}}" alt="">
+                        <img src="{{asset($img_portfolio_3)}}" alt="">
                         
                     </div>
     
                     <div class="card mb-5">
     
-                        <img src="{{asset($img_portfolio_1)}}" alt="">
+                        <img src="{{asset($img_portfolio_2)}}" alt="">
                         
                     </div>
                 </div>

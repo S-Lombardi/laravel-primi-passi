@@ -37,7 +37,9 @@ Route::get('/portfolio', function () {
 
     //array associativo contenente i dati che voglio visualizzare 
     $data =  [
-        'img_portfolio_1' => '/img/gatto_1.JPG' 
+        'img_portfolio_1' => '/img/gatto_1.JPG',
+        'img_portfolio_2' => '/img/gatto_2.JPG',
+        'img_portfolio_3' => '/img/gatto_3.JPG',
     ];
 
     return view('portfolio', $data);
