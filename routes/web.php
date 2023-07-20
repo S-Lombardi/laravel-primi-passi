@@ -13,6 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Rotta per la Home Page
 Route::get('/', function () {
     return view('home');
+});
+
+
+//Rotta per la pagina Contacts
+Route::get('/contacts', function () {
+
+    //array associativo contenente i dati che voglio visualizzare 
+    $data =  [
+        'nome' => 'Silvia',
+        'cognome' => 'Lombardi',
+        'telefono' => '+39 333 3333333'
+    ];
+
+    return view('contacts', $data);
 });

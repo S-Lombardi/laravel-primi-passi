@@ -16,10 +16,13 @@
         </style>
     </head>
     <body >
-        
-        <h1>Hello world</h1>
+        <h1>Pagina Contatti</h1>
 
-        <a href="/contacts"> Contatti </a>
-        
+        {{ $nome }} 
+        {{ $cognome }}
+        {{ $email }}
+
+
+
     </body>
 </html>
